@@ -1,5 +1,3 @@
-﻿// sorting_project.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
-//
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴
 // 프로그램 디버그: <F5> 키 또는 [디버그] > [디버깅 시작] 메뉴
 
@@ -9,7 +7,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define	NUMOFNUMBERS	325000// 5만개, 7.5만개, 10만개, 12.5만개, ..., 50만개까지 증가시키며 시간 측정할 것
+#define	NUMOFNUMBERS	325000// 5만개, 7.5만개, 10만개, 12.5만개, ..., 50만개까지 증가시키며 시간 측정예정
 
 int randNumbers[NUMOFNUMBERS];
 
@@ -23,7 +21,7 @@ int main(int argc, char* argv[])
 	clock_t before;	//시간측정알고리즘
 	double elapsed_time;
 
-	std::cout << "알고리즘입문 2019년 1학기 소팅 프로젝트 시작합니다.\n\n";
+	std::cout << "MergeSort timecheck Start!\n\n";
 
 	srand((unsigned)time(NULL));
 
